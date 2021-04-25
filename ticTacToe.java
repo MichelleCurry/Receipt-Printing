@@ -33,7 +33,7 @@ public class ticTacToe{
                humanMove(board);
                
                //check if human won
-               if (haveWinner(board)){
+               if (haveWinner(board) || isBoardFull(board)){
                   break;
                }
                
